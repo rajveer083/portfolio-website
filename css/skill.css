@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.container {
+    display: flex;
+    
+}
+.main {
+     height: 100vh;
+     width: 100%;
+
+ }
+ .skillcont{
+    display: flex;
+    background-color: rgb(151, 150, 150);
+    border: rgb(150, 148, 148) solid;
+    margin-top: 50;
+    width: 80vw;
+    height: 80vh;
+    margin-left: 60px;
+    border-style:outset;
+    font-family: 'Source Code Pro', monospace;
+   
+   
+ }
+
+.sidebar{
+    background-color: rgb(219, 215, 215);
+    height: 100vh;
+    border-color: black;
+    
+    
+}
+.sidebar nav{
+    padding: 38px;
+}
+.sidebar nav li {
+    list-style: none; 
+    font-size: 30px;
+    padding: 33px 0;
+    margin-left: -25;
+}
+.sidebar nav li a{
+    text-decoration: none;
+      color: black;
+}
+
+.skill1{
+    background-color: rgb(201, 196, 196);
+    border: rgb(150, 148, 148) solid;
+    width: 20vw;
+    height: 60vh;
+    margin-left:60px;
+    margin-top: 70;
+    border-style:outset;
+  
+    }
+.skill2{
+    background-color: rgb(201, 196, 196);
+    border: rgb(150, 148, 148) solid;
+    width: 20vw;
+    height: 60vh;
+    margin-left:60px;
+    margin-top: 70;
+    border-style:outset;
+    
+
+}
+.skill3{
+    background-color: rgb(201, 196, 196);
+    border: rgb(150, 148, 148) solid;
+    width: 20vw;
+    height: 60vh;
+    margin-left:60px;
+    margin-top: 70;
+    border-style:outset;
+}
+.lang{
+    color: black;
+    font-size: 36;
+    margin-left: 60;
+    font-weight: bold;
+    text-decoration-line:underline;
+}
+.frame{
+    color:black;
+    font-size: 36;
+    margin-left: 60;
+    font-weight: bold;
+    text-decoration-line:underline;
+    
+}
+.other{
+    color:black;
+    font-size: 36;
+    margin-left: 60;
+    font-weight: bold;
+    text-decoration-line:underline;
+    
+}
+.java{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10;
+    font-weight: none;
+}
+.javascript{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10;
+}
+.html{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10;
+}
+.css{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10;
+}
+.react{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10;
+}
+.javatext{
+    font-size: 25;
+    margin-left: -15;
+    margin-top: 10;
+}
+.js{
+    font-size: 25;
+    margin-left: 14;
+    margin-top: -0;
+}
+.css1{
+    font-size: 25;
+    margin-left: -24;
+}
+.html1{
+    font-size: 25;
+    margin-left: -24;
+    margin-top: 10;
+}
+.react1{
+    font-size: 25;
+    margin-left: -16;
+    margin-top: 5;
+}
+.imgjava{
+    margin-left: 30;
+    margin-top: -10;
+}
+.imgjs{
+    margin-right: 28;
+}
+.reactimg{
+    margin-top: -5;
+}
+.htmlimg{
+    margin-right: -10;
+}
+.cssimg{
+    margin-right: -12;
+}
+    
+.github1{
+    font-size: 25;
+    margin-right: 43;
+    margin-top: 5;
+    display: flex;
+    justify-content: space-around;
+}   
+.github{
+    font-size: 25;
+    margin-left: 12;
+    margin-top: 5;
+    display: flex;
+    justify-content: space-around;
+}  
+.gitimg{
+    margin-right: -54;
+}
+.githubimg{
+    margin-right: 10;
+}
+   
+    
+
+
+    
+   
+    
+
+
+    
+   
+    

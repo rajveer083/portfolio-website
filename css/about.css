@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar{
+    background-color: rgb(219, 215, 215);
+    height: 650;
+    border-color: black;  
+    
+}
+.sidebar nav{
+    padding: 38px;
+}
+.sidebar nav li {
+    list-style: none; 
+    font-size: 30px;
+    padding: 33px 0;
+    margin-left: -25;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+
+}
+
+.main {
+   /*background-color:rgb(110, 109, 109);*/
+    width: 100vw;
+}
+
+.infoContainer {
+    display: flex;
+    justify-content: space-around;
+    margin-left: -10;
+}
+.divpic img{
+    height: 50vh;
+    margin-top: 80;
+    background-color: rgb(247, 239, 239);
+    border-style: outset;
+    margin-left: -70;
+    
+}
+.devinfo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content:center;
+    text-decoration: inline;
+    margin-left: -160;
+   
+    
+
+}
+.hello{
+    font-size: 25px;
+    font-family: 'Source Code Pro', monospace;
+    margin-left: -440px;
+    margin-top: -145;
+    color:dodgerblue;
+}
+    
+.name{
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Source Code Pro', monospace;
+    margin-left: -390px;
+}
+.about{
+    font-size: 25px;
+    margin-left: -376px;
+    margin-top: 5;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.aboutmore{
+    font-size: 15;
+    margin-top: 5;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    margin-left: -100;
+}
